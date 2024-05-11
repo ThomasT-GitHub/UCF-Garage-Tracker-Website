@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+  <div class="content">
+    <div class="header">
+      <p class="header-txt">UCF Garage Map</p>
+    </div>
+    <div class="body">
+      <div class="garage-info">
+        <p class="garages-header">Garages</p>
+        <ul class="garages">
+          <li class="garage-individual">Garage A</li>
+          <div class="percent-bar-empty">
+            <div class="wheelLoading"></div>
+            <div class="percent-bar-a">
+              <p class="percent">0%</p>
+            </div>
+          </div>
+          <li class="garage-individual">Garage B</li>
+          <div class="percent-bar-empty">
+            <div class="wheelLoading"></div>
+            <div class="percent-bar-b">
+              <p class="percent">0%</p>
+            </div>
+          </div>
+          <li class="garage-individual">Garage C</li>
+          <div class="percent-bar-empty">
+            <div class="wheelLoading"></div>
+            <div class="percent-bar-c">
+              <p class="percent">0%</p>
+            </div>
+          </div>
+          <li class="garage-individual">Garage D</li>
+          <div class="percent-bar-empty">
+            <div class="wheelLoading"></div>
+            <div class="percent-bar-d">
+              <p class="percent">0%</p>
+            </div>
+          </div>
+          <li class="garage-individual">Garage H</li>
+          <div class="percent-bar-empty">
+            <div class="wheelLoading"></div>
+            <div class="percent-bar-h">
+              <p class="percent">0%</p>
+            </div>
+          </div>
+          <li class="garage-individual">Garage I</li>
+          <div class="percent-bar-empty">
+            <div class="wheelLoading"></div>
+            <div class="percent-bar-i">
+              <p class="percent">0%</p>
+            </div>
+          </div>
+        </ul>
+        <p class="map-detail">Hover over a garage to show spaces available</p>
+
+      </div>
+      <div class="map-container">
+        <img class="ucfMap" src = "https://maps.googleapis.com/maps/api/staticmap?center=28.60125,-81.2005&zoom=16&scale=2&size=1000x1000&style=feature:poi|element:labels|visibility:off&maptype=roadmap&key=AIzaSyCrZWsiN-K8DEitoBog8MxgZBMQ9c65FZs" alt = "Map of UCF">
+        <a href="https://maps.app.goo.gl/4Yg85Qy2obhzRJ6QA">
+         <div class="garage" id="a">
+            <div class="garage-avail-info" id="header-a" target="_blank">
+              <div class="triangle"></div>
+              <p class="avail-text">Garage A<br>Avail: <span id="aText">1000</span></p>
+            </div>
+         </div>
+        </a>
+        <a href="https://maps.app.goo.gl/mSWVtsWMVEbRCgsB7" target="_blank">
+          <div class="garage" id="b">
+           <div class="garage-avail-info" id="header-b">
+              <div class="triangle"></div>
+              <p class="avail-text">Garage B<br>Avail: <span id="bText">1000</span></p>
+           </div>
+         </div>
+        </a>
+        <a href="https://maps.app.goo.gl/4Yg85Qy2obhzRJ6QA" target="_blank">
+          <div class="garage" id="c">
+           <div class="garage-avail-info" id="header-c">
+             <div class="triangle"></div>
+             <p class="avail-text">Garage C<br>Avail: <span id="cText">1000</span></p>
+           </div>
+          </div>
+        </a>
+        <a href="https://maps.app.goo.gl/4xEsx9yemY5hTng16" target="_blank">
+         <div class="garage" id="d">
+           <div class="garage-avail-info" id="header-d">
+             <div class="triangle"></div>
+              <p class="avail-text">Garage D<br>Avail: <span id="dText">1000</span></p>
+            </div>
+          </div>
+        </a>
+        <a href="https://maps.app.goo.gl/HJytrLRehQiYegAw8" target="_blank">
+          <div class="garage" id="h">
+            <div class="garage-avail-info" id="header-h">
+              <div class="triangle"></div>
+              <p class="avail-text">Garage H<br>Avail: <span id="hText">1000</span></p>
+            </div>
+          </div>
+        </a>
+        <a href="https://maps.app.goo.gl/1XzfkG3YJtN4itaM7" target="_blank">
+          <div class="garage" id="i">
+           <div class="garage-avail-info" id="header-i">
+              <div class="triangle"></div>
+              <p class="avail-text">Garage I<br>Avail: <span id="iText">1000</span></p>
+           </div>
+         </div>
+        </a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="divider"></div>
+      <p class="footer-txt">UCF Garage Map</p>
+      <a href="https://github.com/thomastrivino/UCF-Garage-Viewer" target="_blank">
+        <img class="socials" src="https://raw.githubusercontent.com/thomastrivino/UCF-Garage-Viewer/main/images/github-mark.png" alt="github logo">
+      </a>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
