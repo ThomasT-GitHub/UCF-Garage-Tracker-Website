@@ -1,5 +1,5 @@
-# __UCF Garage Availability Map__
-A website created to visualize the availability of parking spots at the garages of the University of Central Florida  
+# __UCF Garage Tracker__
+A website created to visualize the availability of parking spots at the garages of the University of Central Florida. There is an app version for Android available [here](https://github.com/thomastrivino/UCF-Garage-Tracker-App)  
 ## [Go to site](https://thomastrivino.github.io/UCF-Garage-Availability-Map-Visualizer/)  
 
 ![PREVIEW](https://raw.githubusercontent.com/thomastrivino/UCF-Garage-Availability-Map-Visualizer/master/ucfGarageMap%20(1).gif)
