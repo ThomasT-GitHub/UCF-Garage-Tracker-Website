@@ -1,7 +1,7 @@
 // Gets the garage data from Cloud Functions. Returns the JSON with the data
 const getGarageInfo = async () => {
   // Makes a call to the UCF garage API
-  const response = await fetch('https://us-central1-ucf-garage.cloudfunctions.net/getGarageData');
+  const response = await fetch('https://ucf-garage-tracker-api.redmushroom-db999b10.eastus.azurecontainerapps.io/garage-data');
   const result = await response.json();
 
   // Returns the JSON with the garage data
